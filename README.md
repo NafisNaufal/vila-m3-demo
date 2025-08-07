@@ -23,15 +23,7 @@ It focuses on addressing the unique challenges faced by general-purpose vision-l
 
 For details, see [here](m3/README.md).
 
-### Online Demo
-
-Please visit the [VILA-M3 Demo](https://vila-m3-demo.monai.ngc.nvidia.com/) to try out a preview version of the model.
-
-<p align="center">
-  <img src="m3/docs/images/gradio_app_ct.png" width="70%"/>
-</p>
-
-## Local Demo
+## Demo
 
 ### Prerequisites
 
@@ -81,7 +73,7 @@ Please visit the [VILA-M3 Demo](https://vila-m3-demo.monai.ngc.nvidia.com/) to t
 
 1. ***Setup Environment***: Clone the repository, set up the environment, and download the experts' checkpoints:
     ```bash
-    git clone https://github.com/Project-MONAI/VLM --recursive
+    git clone https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework --recursive
     cd VLM
     python3.10 -m venv .venv
     source .venv/bin/activate
